@@ -28,9 +28,3 @@ func process(r []rune, i int, ans []string) []string {
 	return process(r, i+1, ans)
 
 }
-
-/*
-0? => [01, 00]
-00? => [001?, 000]
-0?0? => [0101, 0001, 0100, 0000]
-*/
